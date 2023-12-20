@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="FurnitureStoreAdmin.MvcApplication" Language="C#" %>

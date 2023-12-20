@@ -1,0 +1,50 @@
+﻿@using FurnitureStoreAdmin.Helpers
+@model FurnitureStoreAdmin.Models.FurnitureModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<table class="table">
+  <thead class="thead-dark">
+  <tr>
+    <th scope="col">Id</th>
+    <th scope="col">Name</th>
+    <th scope="col">Description</th>
+  </tr>
+  </thead>
+  <tbody>
+  @foreach (var item in Model.Items)
+  {
+    <tr>
+      <th scope="row">@item.Id</th>
+      <td>@item.Name</td>
+      <td>@item.Description</td>
+    </tr>
+  }
+  </tbody>
+</table>
+
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div class="btn-group">
+        @Html.Pages(Model.Info, x => Url.Action("Index", 
+            new { pageSize = Model.Info.PageSize, pageNumber = x }))
+    </div>
+    
+    <div style="display: flex;">
+        <span style="padding-right: 10px;">
+            Количество записей на странице
+        </span>
+        
+        @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+        {
+            <select name="pageSize" onchange="this.form.submit()">
+                <option value="10" @(Model.Info.PageSize == 10 ? "selected" : "")>10</option>
+                <option value="20" @(Model.Info.PageSize == 20 ? "selected" : "")>20</option>
+                <option value="50" @(Model.Info.PageSize == 50 ? "selected" : "")>50</option>
+                <option value="100" @(Model.Info.PageSize == 100 ? "selected" : "")>100</option>
+            </select>
+        }
+    </div>
+    
+</div>

@@ -1,0 +1,6 @@
+D:\VisualStudioProject\FurnitureStoreAdmin\Abstraction\bin\Debug\Abstraction.dll
+D:\VisualStudioProject\FurnitureStoreAdmin\Abstraction\bin\Debug\Abstraction.pdb
+D:\VisualStudioProject\FurnitureStoreAdmin\Abstraction\obj\Debug\Abstraction.csproj.AssemblyReference.cache
+D:\VisualStudioProject\FurnitureStoreAdmin\Abstraction\obj\Debug\Abstraction.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\FurnitureStoreAdmin\Abstraction\obj\Debug\Abstraction.dll
+D:\VisualStudioProject\FurnitureStoreAdmin\Abstraction\obj\Debug\Abstraction.pdb

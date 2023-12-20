@@ -1,0 +1,14 @@
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\bin\Debug\FurnitureStoreAdmin.BLL.dll
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\bin\Debug\FurnitureStoreAdmin.BLL.pdb
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\bin\Debug\Abstraction.dll
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\bin\Debug\FurnitureStoreAdmin.DAL.dll
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\bin\Debug\EntityFramework.dll
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\bin\Debug\Abstraction.pdb
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\bin\Debug\FurnitureStoreAdmin.DAL.pdb
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\bin\Debug\FurnitureStoreAdmin.DAL.dll.config
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\bin\Debug\EntityFramework.xml
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\obj\Debug\FurnitureStoreAdmin.BLL.csproj.AssemblyReference.cache
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\obj\Debug\FurnitureStoreAdmin.BLL.csproj.CoreCompileInputs.cache
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\obj\Debug\FurnitureStoreAdmin.BLL.csproj.CopyComplete
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\obj\Debug\FurnitureStoreAdmin.BLL.dll
+D:\VisualStudioProject\FurnitureStoreAdmin\FurnitureStoreAdmin.BLL\obj\Debug\FurnitureStoreAdmin.BLL.pdb
