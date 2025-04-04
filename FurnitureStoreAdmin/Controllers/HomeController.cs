@@ -23,7 +23,7 @@ namespace FurnitureStoreAdmin.Controllers
         public async Task<ActionResult> Index(int pageSize = 20, int pageNumber = 1)
         {
             var items = await _furnitureService.GetItems(pageSize, pageNumber);
-            var totalItems = await _furnitureService.Count();
+            var totalItems = await _furnitureService.CountAsync();
 
             var pageInfo = new PageInfo()
             {

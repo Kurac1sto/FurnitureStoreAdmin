@@ -5,8 +5,8 @@ namespace Abstraction.Interfaces
 {
     public interface IRepository<T> where T : class
     {
-        Task<List<T>> GetAllItems();
-        Task<List<T>> GetItems(int pageSize, int pageNumber);
-        Task<int> Count();
+        Task<List<T>> GetAllItemsAsync();
+        Task<List<T>> GetItemsAsync(int pageSize, int pageNumber);
+        Task<int> CountAsync();
     }
 }

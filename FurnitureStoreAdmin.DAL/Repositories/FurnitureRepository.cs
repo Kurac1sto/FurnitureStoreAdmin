@@ -20,7 +20,7 @@ namespace FurnitureStoreAdmin.DAL.Repositories
         /// Получение всех записей из бд
         /// </summary>
         /// <returns></returns>
-        public async Task<List<Furniture>> GetAllItems()
+        public async Task<List<Furniture>> GetAllItemsAsync()
         {
             var furniture = await _context.Furniture.ToListAsync();
             
@@ -33,7 +33,7 @@ namespace FurnitureStoreAdmin.DAL.Repositories
         /// <param name="pageSize">Количество записей на страницу</param>
         /// <param name="pageNumber">Номер страницы</param>
         /// <returns></returns>
-        public async Task<List<Furniture>> GetItems(int pageSize, int pageNumber)
+        public async Task<List<Furniture>> GetItemsAsync(int pageSize, int pageNumber)
         {
             var furnitureIQuer = _context.Furniture as IQueryable<Furniture>;
             var furniture = await furnitureIQuer.OrderBy(item => item.Id)
@@ -48,7 +48,7 @@ namespace FurnitureStoreAdmin.DAL.Repositories
         /// Количество записей в бд
         /// </summary>
         /// <returns></returns>
-        public async Task<int> Count()
+        public async Task<int> CountAsync()
             => await _context.Furniture.CountAsync();
         
         public void Dispose()

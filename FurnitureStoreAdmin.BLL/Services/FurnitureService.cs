@@ -26,7 +26,7 @@ namespace FurnitureStoreAdmin.BLL.Services
         /// <returns></returns>
         public async Task<List<Furniture>> GetItems(int pageSize, int pageNumber)
         {
-            var furniture = await _furnitureRepository.GetItems(pageSize, pageNumber);
+            var furniture = await _furnitureRepository.GetItemsAsync(pageSize, pageNumber);
 
             return furniture;
         }
@@ -35,7 +35,7 @@ namespace FurnitureStoreAdmin.BLL.Services
         /// Количество записей в бд
         /// </summary>
         /// <returns></returns>
-        public async Task<int> Count()
-            => await _furnitureRepository.Count();
+        public async Task<int> CountAsync()
+            => await _furnitureRepository.CountAsync();
     }
 }
