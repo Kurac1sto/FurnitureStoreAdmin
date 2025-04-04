@@ -49,23 +49,20 @@ namespace FurnitureStoreAdmin.DAL.Repositories
         /// </summary>
         /// <returns></returns>
         public async Task<int> Count()
-            => _context.Furniture.Count();
-
-        protected void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                if (_context != null)
-                {
-                    _context.Dispose();
-                    _context = null;
-                }
-            }
-        }
+            => await _context.Furniture.CountAsync();
+        
         public void Dispose()
         {
             Dispose(true);
             GC.SuppressFinalize(this);
+        }
+        
+        private void Dispose(bool disposing)
+        {
+            if (!disposing || _context == null) return;
+
+            _context.Dispose();
+            _context = null;
         }
     }
 }
